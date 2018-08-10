@@ -1,4 +1,4 @@
-const isNumber = (n) => typeof n === 'number' && !isNaN(n) && isFinite(n);
+export const isNumber = (n) => typeof n === 'number' && !isNaN(n) && isFinite(n);
 
 export const memoize = (cb) => {
   let cache = {};

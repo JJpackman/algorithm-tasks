@@ -17,7 +17,7 @@ describe('memoization process', () => {
     });
   });
 
-  describe('memoTimes10() function', () => {
+  describe('memoization of times10() function', () => {
     let memoTimes10;
 
     beforeEach(() => {
